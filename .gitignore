@@ -1,0 +1,42 @@
+# AlNady Backend — Git Ignore
+
+# .env files (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+**/bin/
+**/obj/
+/publish/
+/app/publish/
+
+# Logs
+logs/
+*.log
+
+# Uploads
+uploads/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+.idea/
+
+# Migrations (optional — remove if you want to commit migrations)
+# **/Migrations/
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Docker
+.docker/
+
+# NuGet
+*.nupkg
+**/packages/

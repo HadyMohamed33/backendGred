@@ -1,0 +1,6 @@
+@AlNady.API_HostAddress = http://localhost:5098
+
+GET {{AlNady.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
